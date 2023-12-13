@@ -202,7 +202,7 @@ header .line {
 }
 
 .banner {
-    background-image: url(../bg.jpg);
+    background-image: url(..bg.jpg);
     background-position: center;
     background-size: cover;
 
@@ -269,7 +269,7 @@ form {
 }
 
 .area4-img1 {
-    background-image: url(../bg3.jpg);
+    background-image: url(..bg3.jpg);
     background-size: cover;
     background-position: center;
 }
