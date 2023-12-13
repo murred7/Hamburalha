@@ -1,0 +1,73 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Hamburalha</title>
+
+        <link rel="stylesheet" href="style.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&display=swap" rel="stylesheet">
+
+    </head>
+        <body>
+            <header class="back">
+                <div class="line"></div>
+                <div class="container header-area">
+                    <div class="logo">
+                        <a href="index.html"><img src="logo1.png" alt="Hamburalha"></a>
+                    </div>
+                    <div class="header-right">
+                    </div>
+                </div>
+            </header>
+            <section class="banner">
+                <div class="container">
+                    <h1>Hamburalha&reg<br>com Muralha</h1>
+                    <span>Venha provar nossos deliciosos hamburalhas!</span>
+                    <div class="banner-images">
+                        <img src="c1.png" alt="">
+                        <img src="c2.png" alt="">
+                        <img src="c3.png" alt="">
+                    </div>
+                </div>
+            </section>  
+            
+            <section class="area4">
+                <div class="area4-content">
+                    <div class="bar"></div>
+                    <h2>Novidades: Hamburalha com Muralha</h2>
+                    <p class="text">Apresentamos o novo X-Burger: o hambúrguer que vai conquistar seu coração. O X-Burger está disponível em duas versões: tradicional e vegetariana. A versão tradicional é feita com carne de vaca, enquanto a versão vegetariana é feita com hambúrguer de soja.</p>
+                    <a class="button" href="contato.html">Compre já</a>
+                </div>
+                <div class="area4-img1"></div>
+            </section>
+
+            <footer>
+                @ 2023 David R Silveira | Muralha <br>
+                Todos os direitos reservados.
+            </footer>
+
+    <div class="overlay" id="overlay"></div>
+    <div class="popup" id="popup">
+        <span class="close-btn" onclick="closePopup()">&times;</span>
+        <p>Não deixe de compra o nosso Hamburalha</p>
+    </div>
+
+    <script>
+        function openPopup() {
+            document.getElementById('popup').style.display = 'block';
+            document.getElementById('overlay').style.display = 'block';
+        }
+        function closePopup() {
+            document.getElementById('popup').style.display = 'none';
+            document.getElementById('overlay').style.display = 'none';
+        }
+        setTimeout(openPopup, 3000);
+    </script>
+        </body>
+        </html>
